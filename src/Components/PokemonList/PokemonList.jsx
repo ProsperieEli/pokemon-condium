@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import Pokemon from "../Pokemon/Pokemon";
 
 export default function PokemonList({ pokemons }) {
+  console.log(pokemons);
   return (
     <ul aria-label="pokemonList" className="pokemonList">
       {pokemons.map((pokemon) => {
