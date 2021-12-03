@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should render the Pokemon 1`] = `
+<div>
+  <ul
+    aria-label="pokemonList"
+    class="pokemonList"
+  >
+    <li
+      class="listItem"
+    >
+      <figure
+        aria-label="pokemon"
+      >
+        <img
+          alt="Venusaur-mega--MEGA-"
+          src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/003_f2.png"
+        />
+        <div
+          class="details"
+        >
+          <h2>
+            Venusaur-mega
+          </h2>
+          <p>
+            -MEGA-
+          </p>
+          <p>
+            Thick-fat
+            /Vine-Whip
+          </p>
+          <p>
+            Grass
+            /Poison
+          </p>
+        </div>
+      </figure>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`it should render the name, type search 1`] = `
+<div>
+  <div
+    class="controlsContainer"
+  >
+    <form
+      aria-label="searchForm"
+    >
+      <h3>
+        Search a Pokemon
+      </h3>
+      <label>
+        Name:
+        <input
+          id="pokename"
+          name="name"
+          type="text"
+          value="Pikachu"
+        />
+      </label>
+      <button
+        type="submit"
+      >
+        PokeSearch!
+      </button>
+    </form>
+    <div>
+      <h3>
+        Filter Pokemon
+      </h3>
+      <select>
+        <option
+          value="all"
+        >
+          ALL
+        </option>
+        <option />
+      </select>
+    </div>
+  </div>
+</div>
+`;
